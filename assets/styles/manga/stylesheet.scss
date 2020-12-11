@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  background: #212121;
+}
+
+img {
+  margin: 10px auto;
+  max-width: 95%;
+}
+
+#grid {
+  position: fixed;
+  bottom: 25%;
+  right: 1.5%;
+}
+
+#compress {
+  position: fixed;
+  bottom: 15%;
+  right: 1.5%;
+}
+
+#expand {
+  position: fixed;
+  bottom: 5%;
+  right: 1.5%;
+}
