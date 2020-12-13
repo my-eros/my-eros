@@ -2,6 +2,7 @@ const imgArray = document.getElementsByTagName('img');
 
 for (let img of imgArray) {
   img.classList.add('s12', 'm12', 'l12', 'xl12');
+  img.setAttribute('loading', 'lazy');
 }
 
 document.getElementById('grid').addEventListener('click', () => {
